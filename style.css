@@ -95,22 +95,21 @@ line-height: 36px;
 }
 
 .greenbutton{
-  position: relative;
+
+   position: relative;
   border: none;
   color: white;
+  padding: 20px 32px;
   text-align: center;
-  padding-right: 20px; 
-  padding-left: 20px; 
-
   text-decoration: none;
   display: inline-block;
   font-size: 36px;
+  line-height: 24px;
   margin: 30px 2px;
   cursor: pointer;
   background: #50C69E;
   border-radius: 6px;
   font-weight: bold;
-  
 }
 
 * {
@@ -167,8 +166,8 @@ line-height: 88px;
 
 .grey{
   background: #F4F4F4;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width:100%;
 }
 
@@ -201,6 +200,20 @@ nav li{
     line-height: 18px;
      }
 
+  .large{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  
+   .button{
+    font-size: 25px;
+    
+  }  
+  
+  .greenbutton{
+    font-size: 25px;
+  }
+
   
   h1{
     font-size: 36px;
@@ -217,23 +230,6 @@ nav li{
   
   )
   
-  
- .large {
-   font-size: 50px;
-   line-height: 55px:
-  }
-  
-  
-  
-  .button{
-    font-size: 25px;
-    
-  }  
-  
-  
-  .greenbutton{
-    font-size: 25px;
-  }
 
 
 }
