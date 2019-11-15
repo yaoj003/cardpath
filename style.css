@@ -1,0 +1,239 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+html, body {
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin:0px;
+
+}
+
+h1 {
+
+font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+
+
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  
+}
+
+.header{
+  margin-top: 30px;
+}
+
+p{
+
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+a{
+
+font-style: normal;
+text-decoration: none;
+  color: black;
+
+
+
+}
+
+.login{
+  color: #50C69E;
+  right: 10;
+  margin-top: 30px;
+  margin-right: 250px;
+  position: absolute; 
+right: 0;
+top: 0;
+  color: black;
+  font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+}
+
+.signup{
+   margin-top: 30px;
+  margin-right: 60px;
+  position: absolute; 
+right: 0;
+top: 0;
+  color: #50C69E;
+  font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+}
+
+.button{
+  position: relative;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 30px 2px;
+  cursor: pointer;
+  background: #154DCA;
+  border-radius: 6px;
+  font-weight: bold;
+  
+}
+
+.greenbutton{
+  position: relative;
+  border: none;
+  color: white;
+  text-align: center;
+  padding-right: 20px; 
+  padding-left: 20px; 
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 30px 2px;
+  cursor: pointer;
+  background: #50C69E;
+  border-radius: 6px;
+  font-weight: bold;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.full {
+    text-align: center;
+    padding: 10%;
+  
+  }
+
+.large {
+padding-bottom:120px;
+padding-left:10%;
+padding-right:10%;
+padding-top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+background: #154DCA;
+color: white;
+text-align: center;
+font-weight: 900;
+font-size: 80px;
+line-height: 88px;
+
+
+  }
+
+.grey{
+  background: #F4F4F4;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width:100%;
+}
+
+
+
+nav li{
+  text-decoration: none;
+  display: inline;
+  padding: 90px;
+  font-size: 18px;
+}
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  
+  body{
+    text-align: center;
+  }
+  .column {
+    width: 100%;
+  }
+  
+  
+  nav li{
+    display: block;
+    padding: 10px;
+    line-height: 18px;
+     }
+
+  
+  h1{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  
+  p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .logo(
+  width: 200px;
+  
+  )
+  
+  
+ .large {
+   font-size: 50px;
+   line-height: 55px:
+  }
+  
+  
+  
+  .button{
+    font-size: 25px;
+    
+  }  
+  
+  
+  .greenbutton{
+    font-size: 25px;
+  }
+
+
+}
